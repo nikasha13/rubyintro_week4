@@ -12,6 +12,12 @@
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
+mylist = ["milk", "eggs", "bacon"]
+friendlist = ["beer", "cookies", "apples", "milk"]
+combinedlist = mylist + friendlist
+p combinedlist.sort.uniq
+
+
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
