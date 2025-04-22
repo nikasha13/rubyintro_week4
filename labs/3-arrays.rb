@@ -15,7 +15,15 @@
 mylist = ["milk", "eggs", "bacon"]
 friendlist = ["beer", "cookies", "apples", "milk"]
 combinedlist = mylist + friendlist
-p combinedlist.sort.uniq
+sorted_list = combinedlist.sort
+sorted_unique_list = combinedlist.uniq
+
+puts "buy #{sorted_unique_list[0]}"
+puts "buy #{sorted_unique_list[1]}"
+puts "buy #{sorted_unique_list[2]}"
+puts "buy #{sorted_unique_list[3]}"
+puts "buy #{sorted_unique_list[4]}"
+puts "buy #{sorted_unique_list[5]}"
 
 
 # HINTS
