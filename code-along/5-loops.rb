@@ -3,12 +3,16 @@
 # ruby 5-loops.rb
 
 # Infinite Tacos -> Finite Tacos
+#initial condition (counter)
 index = 0
+#starts loop
 loop do
    puts "tacos!"
+#tells us when to stop (check value of index - if it's 10, you stop the loop - aka, break)
    if index == 10
     break
 end
+#increment the counter on every iteration of the loop (so next time, it starts at the next)
 index = index +1
 end
 
